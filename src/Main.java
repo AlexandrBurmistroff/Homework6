@@ -85,7 +85,7 @@ public class Main {
         double totalPercent = 0;
         for (int i = 1; i <= 12; i++) {
             totalPercent = totalPercent + totalPercent / 100;
-            totalPercent = totalPercent + salaryPercent;
+            totalPercent = totalPercent + salaryPercent + totalSalary;
 
             totalSalary = totalPercent / 100;
 
